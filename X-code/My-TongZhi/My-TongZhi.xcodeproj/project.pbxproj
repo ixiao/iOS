@@ -1,0 +1,259 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11DF86131A36A1A40084AE59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11DF86121A36A1A40084AE59 /* main.m */; };
+		11DF861B1A36A1E50084AE59 /* King.m in Sources */ = {isa = PBXBuildFile; fileRef = 11DF861A1A36A1E50084AE59 /* King.m */; };
+		11DF861E1A36A1F20084AE59 /* Work.m in Sources */ = {isa = PBXBuildFile; fileRef = 11DF861D1A36A1F20084AE59 /* Work.m */; };
+		11DF86221A36A3E90084AE59 /* Farmer.m in Sources */ = {isa = PBXBuildFile; fileRef = 11DF86211A36A3E90084AE59 /* Farmer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		11DF860D1A36A1A40084AE59 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		11DF860F1A36A1A40084AE59 /* My-TongZhi */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "My-TongZhi"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11DF86121A36A1A40084AE59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		11DF86191A36A1E50084AE59 /* King.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = King.h; sourceTree = "<group>"; };
+		11DF861A1A36A1E50084AE59 /* King.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = King.m; sourceTree = "<group>"; };
+		11DF861C1A36A1F20084AE59 /* Work.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Work.h; sourceTree = "<group>"; };
+		11DF861D1A36A1F20084AE59 /* Work.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Work.m; sourceTree = "<group>"; };
+		11DF861F1A36A33F0084AE59 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		11DF86201A36A3E90084AE59 /* Farmer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Farmer.h; sourceTree = "<group>"; };
+		11DF86211A36A3E90084AE59 /* Farmer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Farmer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11DF860C1A36A1A40084AE59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11DF86061A36A1A40084AE59 = {
+			isa = PBXGroup;
+			children = (
+				11DF86111A36A1A40084AE59 /* My-TongZhi */,
+				11DF86101A36A1A40084AE59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11DF86101A36A1A40084AE59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11DF860F1A36A1A40084AE59 /* My-TongZhi */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11DF86111A36A1A40084AE59 /* My-TongZhi */ = {
+			isa = PBXGroup;
+			children = (
+				11DF861F1A36A33F0084AE59 /* Common.h */,
+				11DF86121A36A1A40084AE59 /* main.m */,
+				11DF86191A36A1E50084AE59 /* King.h */,
+				11DF861A1A36A1E50084AE59 /* King.m */,
+				11DF86201A36A3E90084AE59 /* Farmer.h */,
+				11DF86211A36A3E90084AE59 /* Farmer.m */,
+				11DF861C1A36A1F20084AE59 /* Work.h */,
+				11DF861D1A36A1F20084AE59 /* Work.m */,
+			);
+			path = "My-TongZhi";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11DF860E1A36A1A40084AE59 /* My-TongZhi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11DF86161A36A1A40084AE59 /* Build configuration list for PBXNativeTarget "My-TongZhi" */;
+			buildPhases = (
+				11DF860B1A36A1A40084AE59 /* Sources */,
+				11DF860C1A36A1A40084AE59 /* Frameworks */,
+				11DF860D1A36A1A40084AE59 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "My-TongZhi";
+			productName = "My-TongZhi";
+			productReference = 11DF860F1A36A1A40084AE59 /* My-TongZhi */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11DF86071A36A1A40084AE59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = yan;
+				TargetAttributes = {
+					11DF860E1A36A1A40084AE59 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 11DF860A1A36A1A40084AE59 /* Build configuration list for PBXProject "My-TongZhi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 11DF86061A36A1A40084AE59;
+			productRefGroup = 11DF86101A36A1A40084AE59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11DF860E1A36A1A40084AE59 /* My-TongZhi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11DF860B1A36A1A40084AE59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11DF86221A36A3E90084AE59 /* Farmer.m in Sources */,
+				11DF861B1A36A1E50084AE59 /* King.m in Sources */,
+				11DF861E1A36A1F20084AE59 /* Work.m in Sources */,
+				11DF86131A36A1A40084AE59 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		11DF86141A36A1A40084AE59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		11DF86151A36A1A40084AE59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		11DF86171A36A1A40084AE59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		11DF86181A36A1A40084AE59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11DF860A1A36A1A40084AE59 /* Build configuration list for PBXProject "My-TongZhi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11DF86141A36A1A40084AE59 /* Debug */,
+				11DF86151A36A1A40084AE59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11DF86161A36A1A40084AE59 /* Build configuration list for PBXNativeTarget "My-TongZhi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11DF86171A36A1A40084AE59 /* Debug */,
+				11DF86181A36A1A40084AE59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11DF86071A36A1A40084AE59 /* Project object */;
+}
