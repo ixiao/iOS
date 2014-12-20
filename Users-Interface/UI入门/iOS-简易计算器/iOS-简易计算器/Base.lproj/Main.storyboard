@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg4.png" translatesAutoresizingMaskIntoConstraints="NO" id="93T-AV-plI">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="32n-qH-VdN">
+                                <rect key="frame" x="73" y="28" width="247" height="41"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zFH-KL-fjY">
+                                <rect key="frame" x="73" y="38" width="247" height="22"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jit-nb-eVB">
+                                <rect key="frame" x="134" y="152" width="43" height="43"/>
+                                <state key="normal" title="Button" image="0.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="touchNumber:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="2XA-Pr-NeM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8og-gv-Asb">
+                                <rect key="frame" x="134" y="461" width="43" height="43"/>
+                                <state key="normal" title="Button" image="5.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="touchNumber:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="dIB-J5-3Sg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="9" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Bz-fa-gRe">
+                                <rect key="frame" x="66" y="189" width="43" height="43"/>
+                                <state key="normal" title="Button" image="9.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vKK-DD-67c">
+                                <rect key="frame" x="21" y="356" width="43" height="43"/>
+                                <state key="normal" title="Button" image="7.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="touchNumber:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ccE-dT-ev0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9xL-0a-0NR">
+                                <rect key="frame" x="55" y="434" width="43" height="43"/>
+                                <state key="normal" title="Button" image="6.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="touchNumber:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="zWP-JZ-gmi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NJj-6z-5mv">
+                                <rect key="frame" x="204" y="189" width="43" height="43"/>
+                                <state key="normal" title="Button" image="1.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="touchNumber:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Lbf-KG-0B9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rf9-hR-Z2V">
+                                <rect key="frame" x="249" y="262" width="43" height="43"/>
+                                <state key="normal" title="Button" image="2.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="touchNumber:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Lo3-An-mKb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LQu-RA-b0l">
+                                <rect key="frame" x="249" y="362" width="43" height="43"/>
+                                <state key="normal" title="Button" image="3.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="touchNumber:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="r0I-3V-cpE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jOf-kL-fTr">
+                                <rect key="frame" x="210" y="434" width="43" height="43"/>
+                                <state key="normal" title="Button" image="4.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="touchNumber:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="xd5-xM-AM3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="101" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="04h-85-9TB">
+                                <rect key="frame" x="97" y="252" width="30" height="28"/>
+                                <state key="normal" title="Button" image="+.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="touchOperate:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="jjk-lO-Ogu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="102" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UHP-J7-hzR">
+                                <rect key="frame" x="181" y="252" width="30" height="28"/>
+                                <state key="normal" title="Button" image="-.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="touchOperate:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="RwA-Zc-kll"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="103" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Ga-Xh-mLl">
+                                <rect key="frame" x="72" y="347" width="30" height="28"/>
+                                <state key="normal" title="Button" image="X.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="touchOperate:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="b24-kS-1el"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="104" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="48B-bb-Nzc">
+                                <rect key="frame" x="210" y="347" width="30" height="28"/>
+                                <state key="normal" title="Button" image="除.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="touchOperate:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="PKP-rQ-65T"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="105" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cjw-tt-Chr">
+                                <rect key="frame" x="140" y="412" width="30" height="28"/>
+                                <state key="normal" title="Button" image="c.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="touchClear:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="uYE-9u-Hho"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="106" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7PQ-n4-FKo">
+                                <rect key="frame" x="140" y="325" width="30" height="28"/>
+                                <state key="normal" title="Button" image="=.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="touchEquel:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="fEZ-fm-aDq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8xl-Sh-YSG">
+                                <rect key="frame" x="16" y="27" width="43" height="43"/>
+                                <state key="normal" title="Button" image="back.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="touchBack:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="k0J-7m-WGi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pq3-rU-cOq">
+                                <rect key="frame" x="21" y="262" width="43" height="43"/>
+                                <state key="normal" title="Button" image="8.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="touchNumber:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="G2I-IU-Ww9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="9" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Md9-oZ-jvZ">
+                                <rect key="frame" x="66" y="189" width="43" height="43"/>
+                                <state key="normal" title="Button" image="9.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="touchNumber:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="L3C-oA-8WZ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="displayNumber" destination="zFH-KL-fjY" id="UPy-jd-lej"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="+.png" width="35" height="36"/>
+        <image name="-.png" width="33" height="37"/>
+        <image name="0.png" width="66" height="68"/>
+        <image name="1.png" width="66" height="65"/>
+        <image name="2.png" width="63" height="64"/>
+        <image name="3.png" width="63" height="64"/>
+        <image name="4.png" width="66" height="64"/>
+        <image name="5.png" width="65" height="65"/>
+        <image name="6.png" width="65" height="64"/>
+        <image name="7.png" width="64" height="64"/>
+        <image name="8.png" width="64" height="65"/>
+        <image name="9.png" width="66" height="65"/>
+        <image name="=.png" width="57" height="38"/>
+        <image name="X.png" width="32" height="39"/>
+        <image name="back.png" width="45" height="48"/>
+        <image name="bg4.png" width="320" height="548"/>
+        <image name="c.png" width="36" height="41"/>
+        <image name="除.png" width="37" height="40"/>
+    </resources>
+</document>
