@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11DF7C8E1A48375500B9D610 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11DF7C8D1A48375500B9D610 /* main.m */; };
+		11DF7C911A48375500B9D610 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11DF7C901A48375500B9D610 /* AppDelegate.m */; };
+		11DF7C941A48375500B9D610 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11DF7C931A48375500B9D610 /* ViewController.m */; };
+		11DF7C971A48375500B9D610 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11DF7C951A48375500B9D610 /* Main.storyboard */; };
+		11DF7C991A48375500B9D610 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11DF7C981A48375500B9D610 /* Images.xcassets */; };
+		11DF7C9C1A48375500B9D610 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11DF7C9A1A48375500B9D610 /* LaunchScreen.xib */; };
+		11DF7CA81A48375500B9D610 /* Slider_Stepper_homeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11DF7CA71A48375500B9D610 /* Slider_Stepper_homeTests.m */; };
+		11DF7CB21A48383900B9D610 /* iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 11DF7CB11A48383900B9D610 /* iPhone.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11DF7CA21A48375500B9D610 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11DF7C801A48375500B9D610 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11DF7C871A48375500B9D610;
+			remoteInfo = "Slider、Stepper-home";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11DF7C881A48375500B9D610 /* Slider、Stepper-home.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Slider、Stepper-home.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11DF7C8C1A48375500B9D610 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11DF7C8D1A48375500B9D610 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		11DF7C8F1A48375500B9D610 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		11DF7C901A48375500B9D610 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		11DF7C921A48375500B9D610 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		11DF7C931A48375500B9D610 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		11DF7C961A48375500B9D610 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11DF7C981A48375500B9D610 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		11DF7C9B1A48375500B9D610 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		11DF7CA11A48375500B9D610 /* Slider、Stepper-homeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Slider、Stepper-homeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11DF7CA61A48375500B9D610 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11DF7CA71A48375500B9D610 /* Slider_Stepper_homeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Slider_Stepper_homeTests.m; sourceTree = "<group>"; };
+		11DF7CB11A48383900B9D610 /* iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11DF7C851A48375500B9D610 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11DF7C9E1A48375500B9D610 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11DF7C7F1A48375500B9D610 = {
+			isa = PBXGroup;
+			children = (
+				11DF7C8A1A48375500B9D610 /* Slider、Stepper-home */,
+				11DF7CA41A48375500B9D610 /* Slider、Stepper-homeTests */,
+				11DF7C891A48375500B9D610 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11DF7C891A48375500B9D610 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11DF7C881A48375500B9D610 /* Slider、Stepper-home.app */,
+				11DF7CA11A48375500B9D610 /* Slider、Stepper-homeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11DF7C8A1A48375500B9D610 /* Slider、Stepper-home */ = {
+			isa = PBXGroup;
+			children = (
+				11DF7CB11A48383900B9D610 /* iPhone.png */,
+				11DF7C8F1A48375500B9D610 /* AppDelegate.h */,
+				11DF7C901A48375500B9D610 /* AppDelegate.m */,
+				11DF7C921A48375500B9D610 /* ViewController.h */,
+				11DF7C931A48375500B9D610 /* ViewController.m */,
+				11DF7C951A48375500B9D610 /* Main.storyboard */,
+				11DF7C981A48375500B9D610 /* Images.xcassets */,
+				11DF7C9A1A48375500B9D610 /* LaunchScreen.xib */,
+				11DF7C8B1A48375500B9D610 /* Supporting Files */,
+			);
+			path = "Slider、Stepper-home";
+			sourceTree = "<group>";
+		};
+		11DF7C8B1A48375500B9D610 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11DF7C8C1A48375500B9D610 /* Info.plist */,
+				11DF7C8D1A48375500B9D610 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		11DF7CA41A48375500B9D610 /* Slider、Stepper-homeTests */ = {
+			isa = PBXGroup;
+			children = (
+				11DF7CA71A48375500B9D610 /* Slider_Stepper_homeTests.m */,
+				11DF7CA51A48375500B9D610 /* Supporting Files */,
+			);
+			path = "Slider、Stepper-homeTests";
+			sourceTree = "<group>";
+		};
+		11DF7CA51A48375500B9D610 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11DF7CA61A48375500B9D610 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11DF7C871A48375500B9D610 /* Slider、Stepper-home */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11DF7CAB1A48375500B9D610 /* Build configuration list for PBXNativeTarget "Slider、Stepper-home" */;
+			buildPhases = (
+				11DF7C841A48375500B9D610 /* Sources */,
+				11DF7C851A48375500B9D610 /* Frameworks */,
+				11DF7C861A48375500B9D610 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Slider、Stepper-home";
+			productName = "Slider、Stepper-home";
+			productReference = 11DF7C881A48375500B9D610 /* Slider、Stepper-home.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11DF7CA01A48375500B9D610 /* Slider、Stepper-homeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11DF7CAE1A48375500B9D610 /* Build configuration list for PBXNativeTarget "Slider、Stepper-homeTests" */;
+			buildPhases = (
+				11DF7C9D1A48375500B9D610 /* Sources */,
+				11DF7C9E1A48375500B9D610 /* Frameworks */,
+				11DF7C9F1A48375500B9D610 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11DF7CA31A48375500B9D610 /* PBXTargetDependency */,
+			);
+			name = "Slider、Stepper-homeTests";
+			productName = "Slider、Stepper-homeTests";
+			productReference = 11DF7CA11A48375500B9D610 /* Slider、Stepper-homeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11DF7C801A48375500B9D610 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = yan;
+				TargetAttributes = {
+					11DF7C871A48375500B9D610 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					11DF7CA01A48375500B9D610 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 11DF7C871A48375500B9D610;
+					};
+				};
+			};
+			buildConfigurationList = 11DF7C831A48375500B9D610 /* Build configuration list for PBXProject "Slider、Stepper-home" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11DF7C7F1A48375500B9D610;
+			productRefGroup = 11DF7C891A48375500B9D610 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11DF7C871A48375500B9D610 /* Slider、Stepper-home */,
+				11DF7CA01A48375500B9D610 /* Slider、Stepper-homeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11DF7C861A48375500B9D610 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11DF7CB21A48383900B9D610 /* iPhone.png in Resources */,
+				11DF7C971A48375500B9D610 /* Main.storyboard in Resources */,
+				11DF7C9C1A48375500B9D610 /* LaunchScreen.xib in Resources */,
+				11DF7C991A48375500B9D610 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11DF7C9F1A48375500B9D610 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11DF7C841A48375500B9D610 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11DF7C941A48375500B9D610 /* ViewController.m in Sources */,
+				11DF7C911A48375500B9D610 /* AppDelegate.m in Sources */,
+				11DF7C8E1A48375500B9D610 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11DF7C9D1A48375500B9D610 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11DF7CA81A48375500B9D610 /* Slider_Stepper_homeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11DF7CA31A48375500B9D610 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11DF7C871A48375500B9D610 /* Slider、Stepper-home */;
+			targetProxy = 11DF7CA21A48375500B9D610 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		11DF7C951A48375500B9D610 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11DF7C961A48375500B9D610 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		11DF7C9A1A48375500B9D610 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11DF7C9B1A48375500B9D610 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11DF7CA91A48375500B9D610 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		11DF7CAA1A48375500B9D610 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11DF7CAC1A48375500B9D610 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Slider、Stepper-home/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		11DF7CAD1A48375500B9D610 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Slider、Stepper-home/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		11DF7CAF1A48375500B9D610 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Slider、Stepper-homeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Slider、Stepper-home.app/Slider、Stepper-home";
+			};
+			name = Debug;
+		};
+		11DF7CB01A48375500B9D610 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Slider、Stepper-homeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Slider、Stepper-home.app/Slider、Stepper-home";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11DF7C831A48375500B9D610 /* Build configuration list for PBXProject "Slider、Stepper-home" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11DF7CA91A48375500B9D610 /* Debug */,
+				11DF7CAA1A48375500B9D610 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11DF7CAB1A48375500B9D610 /* Build configuration list for PBXNativeTarget "Slider、Stepper-home" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11DF7CAC1A48375500B9D610 /* Debug */,
+				11DF7CAD1A48375500B9D610 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		11DF7CAE1A48375500B9D610 /* Build configuration list for PBXNativeTarget "Slider、Stepper-homeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11DF7CAF1A48375500B9D610 /* Debug */,
+				11DF7CB01A48375500B9D610 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11DF7C801A48375500B9D610 /* Project object */;
+}

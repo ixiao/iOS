@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11D983401A4BB672008F6CF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D9833F1A4BB672008F6CF4 /* main.m */; };
+		11D983431A4BB672008F6CF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D983421A4BB672008F6CF4 /* AppDelegate.m */; };
+		11D983461A4BB672008F6CF4 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D983451A4BB672008F6CF4 /* FirstViewController.m */; };
+		11D983491A4BB672008F6CF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11D983471A4BB672008F6CF4 /* Main.storyboard */; };
+		11D9834B1A4BB672008F6CF4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11D9834A1A4BB672008F6CF4 /* Images.xcassets */; };
+		11D9834E1A4BB672008F6CF4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11D9834C1A4BB672008F6CF4 /* LaunchScreen.xib */; };
+		11D9835A1A4BB672008F6CF4 /* ___________codeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D983591A4BB672008F6CF4 /* ___________codeTests.m */; };
+		11D983651A4BB7A6008F6CF4 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D983641A4BB7A6008F6CF4 /* SecondViewController.m */; };
+		11D983681A4BB7B1008F6CF4 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D983671A4BB7B1008F6CF4 /* ThirdViewController.m */; };
+		11D9837C1A4BBAC3008F6CF4 /* tabbar_badge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11D9836A1A4BBAC3008F6CF4 /* tabbar_badge@2x.png */; };
+		11D9837D1A4BBAC3008F6CF4 /* tabbar_contacts@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11D9836B1A4BBAC3008F6CF4 /* tabbar_contacts@2x.png */; };
+		11D9837E1A4BBAC3008F6CF4 /* tabbar_contacts@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 11D9836C1A4BBAC3008F6CF4 /* tabbar_contacts@2x~ipad.png */; };
+		11D9837F1A4BBAC3008F6CF4 /* tabbar_contactsHL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11D9836D1A4BBAC3008F6CF4 /* tabbar_contactsHL@2x.png */; };
+		11D983801A4BBAC3008F6CF4 /* tabbar_contactsHL@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 11D9836E1A4BBAC3008F6CF4 /* tabbar_contactsHL@2x~ipad.png */; };
+		11D983811A4BBAC3008F6CF4 /* tabbar_discover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11D9836F1A4BBAC3008F6CF4 /* tabbar_discover@2x.png */; };
+		11D983821A4BBAC3008F6CF4 /* tabbar_discover@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 11D983701A4BBAC3008F6CF4 /* tabbar_discover@2x~ipad.png */; };
+		11D983831A4BBAC3008F6CF4 /* tabbar_discoverHL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11D983711A4BBAC3008F6CF4 /* tabbar_discoverHL@2x.png */; };
+		11D983841A4BBAC3008F6CF4 /* tabbar_discoverHL@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 11D983721A4BBAC3008F6CF4 /* tabbar_discoverHL@2x~ipad.png */; };
+		11D983851A4BBAC3008F6CF4 /* tabbar_mainframe@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11D983731A4BBAC3008F6CF4 /* tabbar_mainframe@2x.png */; };
+		11D983861A4BBAC3008F6CF4 /* tabbar_mainframe@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 11D983741A4BBAC3008F6CF4 /* tabbar_mainframe@2x~ipad.png */; };
+		11D983871A4BBAC3008F6CF4 /* tabbar_mainframeHL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11D983751A4BBAC3008F6CF4 /* tabbar_mainframeHL@2x.png */; };
+		11D983881A4BBAC3008F6CF4 /* tabbar_mainframeHL@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 11D983761A4BBAC3008F6CF4 /* tabbar_mainframeHL@2x~ipad.png */; };
+		11D983891A4BBAC3008F6CF4 /* tabbar_me@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11D983771A4BBAC3008F6CF4 /* tabbar_me@2x.png */; };
+		11D9838A1A4BBAC3008F6CF4 /* tabbar_me@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 11D983781A4BBAC3008F6CF4 /* tabbar_me@2x~ipad.png */; };
+		11D9838B1A4BBAC3008F6CF4 /* tabbar_meHL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11D983791A4BBAC3008F6CF4 /* tabbar_meHL@2x.png */; };
+		11D9838C1A4BBAC3008F6CF4 /* tabbar_meHL@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 11D9837A1A4BBAC3008F6CF4 /* tabbar_meHL@2x~ipad.png */; };
+		11D9838D1A4BBAC3008F6CF4 /* tabbarBkg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11D9837B1A4BBAC3008F6CF4 /* tabbarBkg@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11D983541A4BB672008F6CF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11D983321A4BB672008F6CF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11D983391A4BB672008F6CF4;
+			remoteInfo = "第四章-标题栏控制器-code";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11D9833A1A4BB672008F6CF4 /* 第四章-标题栏控制器-code.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "第四章-标题栏控制器-code.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11D9833E1A4BB672008F6CF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11D9833F1A4BB672008F6CF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		11D983411A4BB672008F6CF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		11D983421A4BB672008F6CF4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		11D983441A4BB672008F6CF4 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		11D983451A4BB672008F6CF4 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		11D983481A4BB672008F6CF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11D9834A1A4BB672008F6CF4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		11D9834D1A4BB672008F6CF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		11D983531A4BB672008F6CF4 /* 第四章-标题栏控制器-codeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "第四章-标题栏控制器-codeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11D983581A4BB672008F6CF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11D983591A4BB672008F6CF4 /* ___________codeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___________codeTests.m"; sourceTree = "<group>"; };
+		11D983631A4BB7A6008F6CF4 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		11D983641A4BB7A6008F6CF4 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		11D983661A4BB7B1008F6CF4 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		11D983671A4BB7B1008F6CF4 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		11D9836A1A4BBAC3008F6CF4 /* tabbar_badge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_badge@2x.png"; sourceTree = "<group>"; };
+		11D9836B1A4BBAC3008F6CF4 /* tabbar_contacts@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_contacts@2x.png"; sourceTree = "<group>"; };
+		11D9836C1A4BBAC3008F6CF4 /* tabbar_contacts@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_contacts@2x~ipad.png"; sourceTree = "<group>"; };
+		11D9836D1A4BBAC3008F6CF4 /* tabbar_contactsHL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_contactsHL@2x.png"; sourceTree = "<group>"; };
+		11D9836E1A4BBAC3008F6CF4 /* tabbar_contactsHL@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_contactsHL@2x~ipad.png"; sourceTree = "<group>"; };
+		11D9836F1A4BBAC3008F6CF4 /* tabbar_discover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_discover@2x.png"; sourceTree = "<group>"; };
+		11D983701A4BBAC3008F6CF4 /* tabbar_discover@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_discover@2x~ipad.png"; sourceTree = "<group>"; };
+		11D983711A4BBAC3008F6CF4 /* tabbar_discoverHL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_discoverHL@2x.png"; sourceTree = "<group>"; };
+		11D983721A4BBAC3008F6CF4 /* tabbar_discoverHL@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_discoverHL@2x~ipad.png"; sourceTree = "<group>"; };
+		11D983731A4BBAC3008F6CF4 /* tabbar_mainframe@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_mainframe@2x.png"; sourceTree = "<group>"; };
+		11D983741A4BBAC3008F6CF4 /* tabbar_mainframe@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_mainframe@2x~ipad.png"; sourceTree = "<group>"; };
+		11D983751A4BBAC3008F6CF4 /* tabbar_mainframeHL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_mainframeHL@2x.png"; sourceTree = "<group>"; };
+		11D983761A4BBAC3008F6CF4 /* tabbar_mainframeHL@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_mainframeHL@2x~ipad.png"; sourceTree = "<group>"; };
+		11D983771A4BBAC3008F6CF4 /* tabbar_me@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_me@2x.png"; sourceTree = "<group>"; };
+		11D983781A4BBAC3008F6CF4 /* tabbar_me@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_me@2x~ipad.png"; sourceTree = "<group>"; };
+		11D983791A4BBAC3008F6CF4 /* tabbar_meHL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_meHL@2x.png"; sourceTree = "<group>"; };
+		11D9837A1A4BBAC3008F6CF4 /* tabbar_meHL@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_meHL@2x~ipad.png"; sourceTree = "<group>"; };
+		11D9837B1A4BBAC3008F6CF4 /* tabbarBkg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbarBkg@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11D983371A4BB672008F6CF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11D983501A4BB672008F6CF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11D983311A4BB672008F6CF4 = {
+			isa = PBXGroup;
+			children = (
+				11D9833C1A4BB672008F6CF4 /* 第四章-标题栏控制器-code */,
+				11D983561A4BB672008F6CF4 /* 第四章-标题栏控制器-codeTests */,
+				11D9833B1A4BB672008F6CF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11D9833B1A4BB672008F6CF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11D9833A1A4BB672008F6CF4 /* 第四章-标题栏控制器-code.app */,
+				11D983531A4BB672008F6CF4 /* 第四章-标题栏控制器-codeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11D9833C1A4BB672008F6CF4 /* 第四章-标题栏控制器-code */ = {
+			isa = PBXGroup;
+			children = (
+				11D983691A4BBAC3008F6CF4 /* tabbar */,
+				11D983411A4BB672008F6CF4 /* AppDelegate.h */,
+				11D983421A4BB672008F6CF4 /* AppDelegate.m */,
+				11D983441A4BB672008F6CF4 /* FirstViewController.h */,
+				11D983451A4BB672008F6CF4 /* FirstViewController.m */,
+				11D983631A4BB7A6008F6CF4 /* SecondViewController.h */,
+				11D983641A4BB7A6008F6CF4 /* SecondViewController.m */,
+				11D983661A4BB7B1008F6CF4 /* ThirdViewController.h */,
+				11D983671A4BB7B1008F6CF4 /* ThirdViewController.m */,
+				11D983471A4BB672008F6CF4 /* Main.storyboard */,
+				11D9834A1A4BB672008F6CF4 /* Images.xcassets */,
+				11D9834C1A4BB672008F6CF4 /* LaunchScreen.xib */,
+				11D9833D1A4BB672008F6CF4 /* Supporting Files */,
+			);
+			path = "第四章-标题栏控制器-code";
+			sourceTree = "<group>";
+		};
+		11D9833D1A4BB672008F6CF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11D9833E1A4BB672008F6CF4 /* Info.plist */,
+				11D9833F1A4BB672008F6CF4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		11D983561A4BB672008F6CF4 /* 第四章-标题栏控制器-codeTests */ = {
+			isa = PBXGroup;
+			children = (
+				11D983591A4BB672008F6CF4 /* ___________codeTests.m */,
+				11D983571A4BB672008F6CF4 /* Supporting Files */,
+			);
+			path = "第四章-标题栏控制器-codeTests";
+			sourceTree = "<group>";
+		};
+		11D983571A4BB672008F6CF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11D983581A4BB672008F6CF4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		11D983691A4BBAC3008F6CF4 /* tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				11D9836A1A4BBAC3008F6CF4 /* tabbar_badge@2x.png */,
+				11D9836B1A4BBAC3008F6CF4 /* tabbar_contacts@2x.png */,
+				11D9836C1A4BBAC3008F6CF4 /* tabbar_contacts@2x~ipad.png */,
+				11D9836D1A4BBAC3008F6CF4 /* tabbar_contactsHL@2x.png */,
+				11D9836E1A4BBAC3008F6CF4 /* tabbar_contactsHL@2x~ipad.png */,
+				11D9836F1A4BBAC3008F6CF4 /* tabbar_discover@2x.png */,
+				11D983701A4BBAC3008F6CF4 /* tabbar_discover@2x~ipad.png */,
+				11D983711A4BBAC3008F6CF4 /* tabbar_discoverHL@2x.png */,
+				11D983721A4BBAC3008F6CF4 /* tabbar_discoverHL@2x~ipad.png */,
+				11D983731A4BBAC3008F6CF4 /* tabbar_mainframe@2x.png */,
+				11D983741A4BBAC3008F6CF4 /* tabbar_mainframe@2x~ipad.png */,
+				11D983751A4BBAC3008F6CF4 /* tabbar_mainframeHL@2x.png */,
+				11D983761A4BBAC3008F6CF4 /* tabbar_mainframeHL@2x~ipad.png */,
+				11D983771A4BBAC3008F6CF4 /* tabbar_me@2x.png */,
+				11D983781A4BBAC3008F6CF4 /* tabbar_me@2x~ipad.png */,
+				11D983791A4BBAC3008F6CF4 /* tabbar_meHL@2x.png */,
+				11D9837A1A4BBAC3008F6CF4 /* tabbar_meHL@2x~ipad.png */,
+				11D9837B1A4BBAC3008F6CF4 /* tabbarBkg@2x.png */,
+			);
+			path = tabbar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11D983391A4BB672008F6CF4 /* 第四章-标题栏控制器-code */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11D9835D1A4BB672008F6CF4 /* Build configuration list for PBXNativeTarget "第四章-标题栏控制器-code" */;
+			buildPhases = (
+				11D983361A4BB672008F6CF4 /* Sources */,
+				11D983371A4BB672008F6CF4 /* Frameworks */,
+				11D983381A4BB672008F6CF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "第四章-标题栏控制器-code";
+			productName = "第四章-标题栏控制器-code";
+			productReference = 11D9833A1A4BB672008F6CF4 /* 第四章-标题栏控制器-code.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11D983521A4BB672008F6CF4 /* 第四章-标题栏控制器-codeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11D983601A4BB672008F6CF4 /* Build configuration list for PBXNativeTarget "第四章-标题栏控制器-codeTests" */;
+			buildPhases = (
+				11D9834F1A4BB672008F6CF4 /* Sources */,
+				11D983501A4BB672008F6CF4 /* Frameworks */,
+				11D983511A4BB672008F6CF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11D983551A4BB672008F6CF4 /* PBXTargetDependency */,
+			);
+			name = "第四章-标题栏控制器-codeTests";
+			productName = "第四章-标题栏控制器-codeTests";
+			productReference = 11D983531A4BB672008F6CF4 /* 第四章-标题栏控制器-codeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11D983321A4BB672008F6CF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = yan;
+				TargetAttributes = {
+					11D983391A4BB672008F6CF4 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					11D983521A4BB672008F6CF4 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 11D983391A4BB672008F6CF4;
+					};
+				};
+			};
+			buildConfigurationList = 11D983351A4BB672008F6CF4 /* Build configuration list for PBXProject "第四章-标题栏控制器-code" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11D983311A4BB672008F6CF4;
+			productRefGroup = 11D9833B1A4BB672008F6CF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11D983391A4BB672008F6CF4 /* 第四章-标题栏控制器-code */,
+				11D983521A4BB672008F6CF4 /* 第四章-标题栏控制器-codeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11D983381A4BB672008F6CF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11D983851A4BBAC3008F6CF4 /* tabbar_mainframe@2x.png in Resources */,
+				11D9837E1A4BBAC3008F6CF4 /* tabbar_contacts@2x~ipad.png in Resources */,
+				11D983871A4BBAC3008F6CF4 /* tabbar_mainframeHL@2x.png in Resources */,
+				11D9838B1A4BBAC3008F6CF4 /* tabbar_meHL@2x.png in Resources */,
+				11D983491A4BB672008F6CF4 /* Main.storyboard in Resources */,
+				11D9834E1A4BB672008F6CF4 /* LaunchScreen.xib in Resources */,
+				11D9838A1A4BBAC3008F6CF4 /* tabbar_me@2x~ipad.png in Resources */,
+				11D983861A4BBAC3008F6CF4 /* tabbar_mainframe@2x~ipad.png in Resources */,
+				11D983881A4BBAC3008F6CF4 /* tabbar_mainframeHL@2x~ipad.png in Resources */,
+				11D9838D1A4BBAC3008F6CF4 /* tabbarBkg@2x.png in Resources */,
+				11D9838C1A4BBAC3008F6CF4 /* tabbar_meHL@2x~ipad.png in Resources */,
+				11D9837C1A4BBAC3008F6CF4 /* tabbar_badge@2x.png in Resources */,
+				11D983841A4BBAC3008F6CF4 /* tabbar_discoverHL@2x~ipad.png in Resources */,
+				11D983891A4BBAC3008F6CF4 /* tabbar_me@2x.png in Resources */,
+				11D983821A4BBAC3008F6CF4 /* tabbar_discover@2x~ipad.png in Resources */,
+				11D983801A4BBAC3008F6CF4 /* tabbar_contactsHL@2x~ipad.png in Resources */,
+				11D983811A4BBAC3008F6CF4 /* tabbar_discover@2x.png in Resources */,
+				11D983831A4BBAC3008F6CF4 /* tabbar_discoverHL@2x.png in Resources */,
+				11D9837F1A4BBAC3008F6CF4 /* tabbar_contactsHL@2x.png in Resources */,
+				11D9837D1A4BBAC3008F6CF4 /* tabbar_contacts@2x.png in Resources */,
+				11D9834B1A4BB672008F6CF4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11D983511A4BB672008F6CF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11D983361A4BB672008F6CF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11D983651A4BB7A6008F6CF4 /* SecondViewController.m in Sources */,
+				11D983681A4BB7B1008F6CF4 /* ThirdViewController.m in Sources */,
+				11D983461A4BB672008F6CF4 /* FirstViewController.m in Sources */,
+				11D983431A4BB672008F6CF4 /* AppDelegate.m in Sources */,
+				11D983401A4BB672008F6CF4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11D9834F1A4BB672008F6CF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11D9835A1A4BB672008F6CF4 /* ___________codeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11D983551A4BB672008F6CF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11D983391A4BB672008F6CF4 /* 第四章-标题栏控制器-code */;
+			targetProxy = 11D983541A4BB672008F6CF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		11D983471A4BB672008F6CF4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11D983481A4BB672008F6CF4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		11D9834C1A4BB672008F6CF4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11D9834D1A4BB672008F6CF4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11D9835B1A4BB672008F6CF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		11D9835C1A4BB672008F6CF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11D9835E1A4BB672008F6CF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Weifeng Hou (YP783M84PJ)";
+				INFOPLIST_FILE = "第四章-标题栏控制器-code/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		11D9835F1A4BB672008F6CF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Weifeng Hou (YP783M84PJ)";
+				INFOPLIST_FILE = "第四章-标题栏控制器-code/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		11D983611A4BB672008F6CF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "第四章-标题栏控制器-codeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/第四章-标题栏控制器-code.app/第四章-标题栏控制器-code";
+			};
+			name = Debug;
+		};
+		11D983621A4BB672008F6CF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "第四章-标题栏控制器-codeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/第四章-标题栏控制器-code.app/第四章-标题栏控制器-code";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11D983351A4BB672008F6CF4 /* Build configuration list for PBXProject "第四章-标题栏控制器-code" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11D9835B1A4BB672008F6CF4 /* Debug */,
+				11D9835C1A4BB672008F6CF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11D9835D1A4BB672008F6CF4 /* Build configuration list for PBXNativeTarget "第四章-标题栏控制器-code" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11D9835E1A4BB672008F6CF4 /* Debug */,
+				11D9835F1A4BB672008F6CF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11D983601A4BB672008F6CF4 /* Build configuration list for PBXNativeTarget "第四章-标题栏控制器-codeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11D983611A4BB672008F6CF4 /* Debug */,
+				11D983621A4BB672008F6CF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11D983321A4BB672008F6CF4 /* Project object */;
+}

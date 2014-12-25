@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>86734442-6616-4A27-8B6A-C3F303CBA833</string>
+	<key>IDESourceControlProjectName</key>
+	<string>第四章-导航控制器</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F88AB712052F087AFAD0540508D59F05E41FB7CA</key>
+		<string>github.com:ixiao/iOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Users-Interface/UI入门/第四章-导航控制器/第四章-导航控制器.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F88AB712052F087AFAD0540508D59F05E41FB7CA</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:ixiao/iOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F88AB712052F087AFAD0540508D59F05E41FB7CA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F88AB712052F087AFAD0540508D59F05E41FB7CA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOS%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0</string>
+		</dict>
+	</array>
+</dict>
+</plist>
