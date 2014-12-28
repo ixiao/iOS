@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11E335551A4D10430087FA0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E335541A4D10430087FA0C /* main.m */; };
+		11E335581A4D10430087FA0C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E335571A4D10430087FA0C /* AppDelegate.m */; };
+		11E3355B1A4D10430087FA0C /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E3355A1A4D10430087FA0C /* FourViewController.m */; };
+		11E3355E1A4D10430087FA0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11E3355C1A4D10430087FA0C /* Main.storyboard */; };
+		11E335601A4D10430087FA0C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11E3355F1A4D10430087FA0C /* Images.xcassets */; };
+		11E335631A4D10430087FA0C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11E335611A4D10430087FA0C /* LaunchScreen.xib */; };
+		11E3356F1A4D10430087FA0C /* ___________StoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E3356E1A4D10430087FA0C /* ___________StoryTests.m */; };
+		11E3357A1A4D10690087FA0C /* RedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E335791A4D10690087FA0C /* RedViewController.m */; };
+		11E3357D1A4D107E0087FA0C /* RedViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E3357C1A4D107E0087FA0C /* RedViewController2.m */; };
+		11E335801A4D10890087FA0C /* YellowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E3357F1A4D10890087FA0C /* YellowViewController.m */; };
+		11E335831A4D10950087FA0C /* YellowViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E335821A4D10950087FA0C /* YellowViewController2.m */; };
+		11E335861A4D10A20087FA0C /* BlueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E335851A4D10A20087FA0C /* BlueViewController.m */; };
+		11E3359A1A4D145C0087FA0C /* tabbar_badge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11E335881A4D145C0087FA0C /* tabbar_badge@2x.png */; };
+		11E3359B1A4D145C0087FA0C /* tabbar_contacts@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11E335891A4D145C0087FA0C /* tabbar_contacts@2x.png */; };
+		11E3359C1A4D145C0087FA0C /* tabbar_contacts@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 11E3358A1A4D145C0087FA0C /* tabbar_contacts@2x~ipad.png */; };
+		11E3359D1A4D145C0087FA0C /* tabbar_contactsHL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11E3358B1A4D145C0087FA0C /* tabbar_contactsHL@2x.png */; };
+		11E3359E1A4D145C0087FA0C /* tabbar_contactsHL@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 11E3358C1A4D145C0087FA0C /* tabbar_contactsHL@2x~ipad.png */; };
+		11E3359F1A4D145C0087FA0C /* tabbar_discover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11E3358D1A4D145C0087FA0C /* tabbar_discover@2x.png */; };
+		11E335A01A4D145C0087FA0C /* tabbar_discover@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 11E3358E1A4D145C0087FA0C /* tabbar_discover@2x~ipad.png */; };
+		11E335A11A4D145C0087FA0C /* tabbar_discoverHL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11E3358F1A4D145C0087FA0C /* tabbar_discoverHL@2x.png */; };
+		11E335A21A4D145C0087FA0C /* tabbar_discoverHL@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 11E335901A4D145C0087FA0C /* tabbar_discoverHL@2x~ipad.png */; };
+		11E335A31A4D145C0087FA0C /* tabbar_mainframe@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11E335911A4D145C0087FA0C /* tabbar_mainframe@2x.png */; };
+		11E335A41A4D145C0087FA0C /* tabbar_mainframe@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 11E335921A4D145C0087FA0C /* tabbar_mainframe@2x~ipad.png */; };
+		11E335A51A4D145C0087FA0C /* tabbar_mainframeHL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11E335931A4D145C0087FA0C /* tabbar_mainframeHL@2x.png */; };
+		11E335A61A4D145C0087FA0C /* tabbar_mainframeHL@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 11E335941A4D145C0087FA0C /* tabbar_mainframeHL@2x~ipad.png */; };
+		11E335A71A4D145C0087FA0C /* tabbar_me@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11E335951A4D145C0087FA0C /* tabbar_me@2x.png */; };
+		11E335A81A4D145C0087FA0C /* tabbar_me@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 11E335961A4D145C0087FA0C /* tabbar_me@2x~ipad.png */; };
+		11E335A91A4D145C0087FA0C /* tabbar_meHL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11E335971A4D145C0087FA0C /* tabbar_meHL@2x.png */; };
+		11E335AA1A4D145C0087FA0C /* tabbar_meHL@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 11E335981A4D145C0087FA0C /* tabbar_meHL@2x~ipad.png */; };
+		11E335AB1A4D145C0087FA0C /* tabbarBkg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11E335991A4D145C0087FA0C /* tabbarBkg@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11E335691A4D10430087FA0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11E335471A4D10430087FA0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11E3354E1A4D10430087FA0C;
+			remoteInfo = "第四章-导航-控制器-Story";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11E3354F1A4D10430087FA0C /* 第四章-导航-控制器-Story.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "第四章-导航-控制器-Story.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11E335531A4D10430087FA0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11E335541A4D10430087FA0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		11E335561A4D10430087FA0C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		11E335571A4D10430087FA0C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		11E335591A4D10430087FA0C /* FourViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
+		11E3355A1A4D10430087FA0C /* FourViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
+		11E3355D1A4D10430087FA0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11E3355F1A4D10430087FA0C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		11E335621A4D10430087FA0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		11E335681A4D10430087FA0C /* 第四章-导航-控制器-StoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "第四章-导航-控制器-StoryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11E3356D1A4D10430087FA0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11E3356E1A4D10430087FA0C /* ___________StoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___________StoryTests.m"; sourceTree = "<group>"; };
+		11E335781A4D10690087FA0C /* RedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedViewController.h; sourceTree = "<group>"; };
+		11E335791A4D10690087FA0C /* RedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedViewController.m; sourceTree = "<group>"; };
+		11E3357B1A4D107E0087FA0C /* RedViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedViewController2.h; sourceTree = "<group>"; };
+		11E3357C1A4D107E0087FA0C /* RedViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedViewController2.m; sourceTree = "<group>"; };
+		11E3357E1A4D10890087FA0C /* YellowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YellowViewController.h; sourceTree = "<group>"; };
+		11E3357F1A4D10890087FA0C /* YellowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YellowViewController.m; sourceTree = "<group>"; };
+		11E335811A4D10950087FA0C /* YellowViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YellowViewController2.h; sourceTree = "<group>"; };
+		11E335821A4D10950087FA0C /* YellowViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YellowViewController2.m; sourceTree = "<group>"; };
+		11E335841A4D10A20087FA0C /* BlueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueViewController.h; sourceTree = "<group>"; };
+		11E335851A4D10A20087FA0C /* BlueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueViewController.m; sourceTree = "<group>"; };
+		11E335881A4D145C0087FA0C /* tabbar_badge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_badge@2x.png"; sourceTree = "<group>"; };
+		11E335891A4D145C0087FA0C /* tabbar_contacts@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_contacts@2x.png"; sourceTree = "<group>"; };
+		11E3358A1A4D145C0087FA0C /* tabbar_contacts@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_contacts@2x~ipad.png"; sourceTree = "<group>"; };
+		11E3358B1A4D145C0087FA0C /* tabbar_contactsHL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_contactsHL@2x.png"; sourceTree = "<group>"; };
+		11E3358C1A4D145C0087FA0C /* tabbar_contactsHL@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_contactsHL@2x~ipad.png"; sourceTree = "<group>"; };
+		11E3358D1A4D145C0087FA0C /* tabbar_discover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_discover@2x.png"; sourceTree = "<group>"; };
+		11E3358E1A4D145C0087FA0C /* tabbar_discover@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_discover@2x~ipad.png"; sourceTree = "<group>"; };
+		11E3358F1A4D145C0087FA0C /* tabbar_discoverHL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_discoverHL@2x.png"; sourceTree = "<group>"; };
+		11E335901A4D145C0087FA0C /* tabbar_discoverHL@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_discoverHL@2x~ipad.png"; sourceTree = "<group>"; };
+		11E335911A4D145C0087FA0C /* tabbar_mainframe@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_mainframe@2x.png"; sourceTree = "<group>"; };
+		11E335921A4D145C0087FA0C /* tabbar_mainframe@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_mainframe@2x~ipad.png"; sourceTree = "<group>"; };
+		11E335931A4D145C0087FA0C /* tabbar_mainframeHL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_mainframeHL@2x.png"; sourceTree = "<group>"; };
+		11E335941A4D145C0087FA0C /* tabbar_mainframeHL@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_mainframeHL@2x~ipad.png"; sourceTree = "<group>"; };
+		11E335951A4D145C0087FA0C /* tabbar_me@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_me@2x.png"; sourceTree = "<group>"; };
+		11E335961A4D145C0087FA0C /* tabbar_me@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_me@2x~ipad.png"; sourceTree = "<group>"; };
+		11E335971A4D145C0087FA0C /* tabbar_meHL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_meHL@2x.png"; sourceTree = "<group>"; };
+		11E335981A4D145C0087FA0C /* tabbar_meHL@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_meHL@2x~ipad.png"; sourceTree = "<group>"; };
+		11E335991A4D145C0087FA0C /* tabbarBkg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbarBkg@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11E3354C1A4D10430087FA0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11E335651A4D10430087FA0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11E335461A4D10430087FA0C = {
+			isa = PBXGroup;
+			children = (
+				11E335511A4D10430087FA0C /* 第四章-导航-控制器-Story */,
+				11E3356B1A4D10430087FA0C /* 第四章-导航-控制器-StoryTests */,
+				11E335501A4D10430087FA0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11E335501A4D10430087FA0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11E3354F1A4D10430087FA0C /* 第四章-导航-控制器-Story.app */,
+				11E335681A4D10430087FA0C /* 第四章-导航-控制器-StoryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11E335511A4D10430087FA0C /* 第四章-导航-控制器-Story */ = {
+			isa = PBXGroup;
+			children = (
+				11E335871A4D145C0087FA0C /* tabbar */,
+				11E335561A4D10430087FA0C /* AppDelegate.h */,
+				11E335571A4D10430087FA0C /* AppDelegate.m */,
+				11E3355C1A4D10430087FA0C /* Main.storyboard */,
+				11E335781A4D10690087FA0C /* RedViewController.h */,
+				11E335791A4D10690087FA0C /* RedViewController.m */,
+				11E3357B1A4D107E0087FA0C /* RedViewController2.h */,
+				11E3357C1A4D107E0087FA0C /* RedViewController2.m */,
+				11E3357E1A4D10890087FA0C /* YellowViewController.h */,
+				11E3357F1A4D10890087FA0C /* YellowViewController.m */,
+				11E335811A4D10950087FA0C /* YellowViewController2.h */,
+				11E335821A4D10950087FA0C /* YellowViewController2.m */,
+				11E335841A4D10A20087FA0C /* BlueViewController.h */,
+				11E335851A4D10A20087FA0C /* BlueViewController.m */,
+				11E335591A4D10430087FA0C /* FourViewController.h */,
+				11E3355A1A4D10430087FA0C /* FourViewController.m */,
+				11E3355F1A4D10430087FA0C /* Images.xcassets */,
+				11E335611A4D10430087FA0C /* LaunchScreen.xib */,
+				11E335521A4D10430087FA0C /* Supporting Files */,
+			);
+			path = "第四章-导航-控制器-Story";
+			sourceTree = "<group>";
+		};
+		11E335521A4D10430087FA0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11E335531A4D10430087FA0C /* Info.plist */,
+				11E335541A4D10430087FA0C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		11E3356B1A4D10430087FA0C /* 第四章-导航-控制器-StoryTests */ = {
+			isa = PBXGroup;
+			children = (
+				11E3356E1A4D10430087FA0C /* ___________StoryTests.m */,
+				11E3356C1A4D10430087FA0C /* Supporting Files */,
+			);
+			path = "第四章-导航-控制器-StoryTests";
+			sourceTree = "<group>";
+		};
+		11E3356C1A4D10430087FA0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11E3356D1A4D10430087FA0C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		11E335871A4D145C0087FA0C /* tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				11E335881A4D145C0087FA0C /* tabbar_badge@2x.png */,
+				11E335891A4D145C0087FA0C /* tabbar_contacts@2x.png */,
+				11E3358A1A4D145C0087FA0C /* tabbar_contacts@2x~ipad.png */,
+				11E3358B1A4D145C0087FA0C /* tabbar_contactsHL@2x.png */,
+				11E3358C1A4D145C0087FA0C /* tabbar_contactsHL@2x~ipad.png */,
+				11E3358D1A4D145C0087FA0C /* tabbar_discover@2x.png */,
+				11E3358E1A4D145C0087FA0C /* tabbar_discover@2x~ipad.png */,
+				11E3358F1A4D145C0087FA0C /* tabbar_discoverHL@2x.png */,
+				11E335901A4D145C0087FA0C /* tabbar_discoverHL@2x~ipad.png */,
+				11E335911A4D145C0087FA0C /* tabbar_mainframe@2x.png */,
+				11E335921A4D145C0087FA0C /* tabbar_mainframe@2x~ipad.png */,
+				11E335931A4D145C0087FA0C /* tabbar_mainframeHL@2x.png */,
+				11E335941A4D145C0087FA0C /* tabbar_mainframeHL@2x~ipad.png */,
+				11E335951A4D145C0087FA0C /* tabbar_me@2x.png */,
+				11E335961A4D145C0087FA0C /* tabbar_me@2x~ipad.png */,
+				11E335971A4D145C0087FA0C /* tabbar_meHL@2x.png */,
+				11E335981A4D145C0087FA0C /* tabbar_meHL@2x~ipad.png */,
+				11E335991A4D145C0087FA0C /* tabbarBkg@2x.png */,
+			);
+			path = tabbar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11E3354E1A4D10430087FA0C /* 第四章-导航-控制器-Story */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11E335721A4D10430087FA0C /* Build configuration list for PBXNativeTarget "第四章-导航-控制器-Story" */;
+			buildPhases = (
+				11E3354B1A4D10430087FA0C /* Sources */,
+				11E3354C1A4D10430087FA0C /* Frameworks */,
+				11E3354D1A4D10430087FA0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "第四章-导航-控制器-Story";
+			productName = "第四章-导航-控制器-Story";
+			productReference = 11E3354F1A4D10430087FA0C /* 第四章-导航-控制器-Story.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11E335671A4D10430087FA0C /* 第四章-导航-控制器-StoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11E335751A4D10430087FA0C /* Build configuration list for PBXNativeTarget "第四章-导航-控制器-StoryTests" */;
+			buildPhases = (
+				11E335641A4D10430087FA0C /* Sources */,
+				11E335651A4D10430087FA0C /* Frameworks */,
+				11E335661A4D10430087FA0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11E3356A1A4D10430087FA0C /* PBXTargetDependency */,
+			);
+			name = "第四章-导航-控制器-StoryTests";
+			productName = "第四章-导航-控制器-StoryTests";
+			productReference = 11E335681A4D10430087FA0C /* 第四章-导航-控制器-StoryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11E335471A4D10430087FA0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = yan;
+				TargetAttributes = {
+					11E3354E1A4D10430087FA0C = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					11E335671A4D10430087FA0C = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 11E3354E1A4D10430087FA0C;
+					};
+				};
+			};
+			buildConfigurationList = 11E3354A1A4D10430087FA0C /* Build configuration list for PBXProject "第四章-导航-控制器-Story" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11E335461A4D10430087FA0C;
+			productRefGroup = 11E335501A4D10430087FA0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11E3354E1A4D10430087FA0C /* 第四章-导航-控制器-Story */,
+				11E335671A4D10430087FA0C /* 第四章-导航-控制器-StoryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11E3354D1A4D10430087FA0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11E335A31A4D145C0087FA0C /* tabbar_mainframe@2x.png in Resources */,
+				11E3359C1A4D145C0087FA0C /* tabbar_contacts@2x~ipad.png in Resources */,
+				11E335A51A4D145C0087FA0C /* tabbar_mainframeHL@2x.png in Resources */,
+				11E335A91A4D145C0087FA0C /* tabbar_meHL@2x.png in Resources */,
+				11E3355E1A4D10430087FA0C /* Main.storyboard in Resources */,
+				11E335631A4D10430087FA0C /* LaunchScreen.xib in Resources */,
+				11E335A81A4D145C0087FA0C /* tabbar_me@2x~ipad.png in Resources */,
+				11E335A41A4D145C0087FA0C /* tabbar_mainframe@2x~ipad.png in Resources */,
+				11E335A61A4D145C0087FA0C /* tabbar_mainframeHL@2x~ipad.png in Resources */,
+				11E335AB1A4D145C0087FA0C /* tabbarBkg@2x.png in Resources */,
+				11E335AA1A4D145C0087FA0C /* tabbar_meHL@2x~ipad.png in Resources */,
+				11E3359A1A4D145C0087FA0C /* tabbar_badge@2x.png in Resources */,
+				11E335A21A4D145C0087FA0C /* tabbar_discoverHL@2x~ipad.png in Resources */,
+				11E335A71A4D145C0087FA0C /* tabbar_me@2x.png in Resources */,
+				11E335A01A4D145C0087FA0C /* tabbar_discover@2x~ipad.png in Resources */,
+				11E3359E1A4D145C0087FA0C /* tabbar_contactsHL@2x~ipad.png in Resources */,
+				11E3359F1A4D145C0087FA0C /* tabbar_discover@2x.png in Resources */,
+				11E335A11A4D145C0087FA0C /* tabbar_discoverHL@2x.png in Resources */,
+				11E3359D1A4D145C0087FA0C /* tabbar_contactsHL@2x.png in Resources */,
+				11E3359B1A4D145C0087FA0C /* tabbar_contacts@2x.png in Resources */,
+				11E335601A4D10430087FA0C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11E335661A4D10430087FA0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11E3354B1A4D10430087FA0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11E335831A4D10950087FA0C /* YellowViewController2.m in Sources */,
+				11E3357A1A4D10690087FA0C /* RedViewController.m in Sources */,
+				11E3355B1A4D10430087FA0C /* FourViewController.m in Sources */,
+				11E335801A4D10890087FA0C /* YellowViewController.m in Sources */,
+				11E335581A4D10430087FA0C /* AppDelegate.m in Sources */,
+				11E3357D1A4D107E0087FA0C /* RedViewController2.m in Sources */,
+				11E335861A4D10A20087FA0C /* BlueViewController.m in Sources */,
+				11E335551A4D10430087FA0C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11E335641A4D10430087FA0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11E3356F1A4D10430087FA0C /* ___________StoryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11E3356A1A4D10430087FA0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11E3354E1A4D10430087FA0C /* 第四章-导航-控制器-Story */;
+			targetProxy = 11E335691A4D10430087FA0C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		11E3355C1A4D10430087FA0C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11E3355D1A4D10430087FA0C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		11E335611A4D10430087FA0C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11E335621A4D10430087FA0C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11E335701A4D10430087FA0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		11E335711A4D10430087FA0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11E335731A4D10430087FA0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "第四章-导航-控制器-Story/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		11E335741A4D10430087FA0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "第四章-导航-控制器-Story/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		11E335761A4D10430087FA0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "第四章-导航-控制器-StoryTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/第四章-导航-控制器-Story.app/第四章-导航-控制器-Story";
+			};
+			name = Debug;
+		};
+		11E335771A4D10430087FA0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "第四章-导航-控制器-StoryTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/第四章-导航-控制器-Story.app/第四章-导航-控制器-Story";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11E3354A1A4D10430087FA0C /* Build configuration list for PBXProject "第四章-导航-控制器-Story" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11E335701A4D10430087FA0C /* Debug */,
+				11E335711A4D10430087FA0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11E335721A4D10430087FA0C /* Build configuration list for PBXNativeTarget "第四章-导航-控制器-Story" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11E335731A4D10430087FA0C /* Debug */,
+				11E335741A4D10430087FA0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11E335751A4D10430087FA0C /* Build configuration list for PBXNativeTarget "第四章-导航-控制器-StoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11E335761A4D10430087FA0C /* Debug */,
+				11E335771A4D10430087FA0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11E335471A4D10430087FA0C /* Project object */;
+}
