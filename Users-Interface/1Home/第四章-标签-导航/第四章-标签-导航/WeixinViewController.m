@@ -28,14 +28,15 @@
 }
 -(void)viewWillAppear:(BOOL)animated
 {
-    self.tabBarController.navigationItem.title=@"微信";
-    self.tabBarController.tabBar.tintColor=[UIColor greenColor];
+
     self.tabBarController.navigationItem.rightBarButtonItem=nil;
 //    self.tabBarController.navigationItem.rightBarButtonItem=nil;
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.tabBarController.navigationItem.title=@"微信";
+    self.tabBarController.tabBar.tintColor=[UIColor greenColor];
 }
 
 - (void)didReceiveMemoryWarning {

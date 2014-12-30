@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11D3B9491A50E82500307943 /* navigation126.png in Resources */ = {isa = PBXBuildFile; fileRef = 11D3B9461A50E82500307943 /* navigation126.png */; };
+		11D3B94A1A50E82500307943 /* navigation44.png in Resources */ = {isa = PBXBuildFile; fileRef = 11D3B9471A50E82500307943 /* navigation44.png */; };
+		11D3B94B1A50E82500307943 /* navigation64.png in Resources */ = {isa = PBXBuildFile; fileRef = 11D3B9481A50E82500307943 /* navigation64.png */; };
 		11E334E91A4CF0040087FA0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E334E81A4CF0040087FA0C /* main.m */; };
 		11E334EC1A4CF0040087FA0C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E334EB1A4CF0040087FA0C /* AppDelegate.m */; };
 		11E334EF1A4CF0040087FA0C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E334EE1A4CF0040087FA0C /* ViewController.m */; };
@@ -50,6 +53,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11D3B9461A50E82500307943 /* navigation126.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navigation126.png; sourceTree = "<group>"; };
+		11D3B9471A50E82500307943 /* navigation44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navigation44.png; sourceTree = "<group>"; };
+		11D3B9481A50E82500307943 /* navigation64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navigation64.png; sourceTree = "<group>"; };
 		11E334E31A4CF0040087FA0C /* 第四章-标签导航-code.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "第四章-标签导航-code.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11E334E71A4CF0040087FA0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11E334E81A4CF0040087FA0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -111,6 +117,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11D3B9451A50E82500307943 /* navigation icons */ = {
+			isa = PBXGroup;
+			children = (
+				11D3B9461A50E82500307943 /* navigation126.png */,
+				11D3B9471A50E82500307943 /* navigation44.png */,
+				11D3B9481A50E82500307943 /* navigation64.png */,
+			);
+			name = "navigation icons";
+			path = "tabbar/navigation icons";
+			sourceTree = "<group>";
+		};
 		11E334DA1A4CF0040087FA0C = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +149,7 @@
 		11E334E51A4CF0040087FA0C /* 第四章-标签导航-code */ = {
 			isa = PBXGroup;
 			children = (
+				11D3B9451A50E82500307943 /* navigation icons */,
 				11E335211A4D03880087FA0C /* tabbar */,
 				11E334EA1A4CF0040087FA0C /* AppDelegate.h */,
 				11E334EB1A4CF0040087FA0C /* AppDelegate.m */,
@@ -291,6 +309,7 @@
 				11E3353F1A4D03880087FA0C /* tabbar_mainframeHL@2x.png in Resources */,
 				11E335431A4D03880087FA0C /* tabbar_meHL@2x.png in Resources */,
 				11E334F21A4CF0040087FA0C /* Main.storyboard in Resources */,
+				11D3B94B1A50E82500307943 /* navigation64.png in Resources */,
 				11E334F71A4CF0040087FA0C /* LaunchScreen.xib in Resources */,
 				11E335421A4D03880087FA0C /* tabbar_me@2x~ipad.png in Resources */,
 				11E3353E1A4D03880087FA0C /* tabbar_mainframe@2x~ipad.png in Resources */,
@@ -301,10 +320,12 @@
 				11E3353C1A4D03880087FA0C /* tabbar_discoverHL@2x~ipad.png in Resources */,
 				11E335411A4D03880087FA0C /* tabbar_me@2x.png in Resources */,
 				11E3353A1A4D03880087FA0C /* tabbar_discover@2x~ipad.png in Resources */,
+				11D3B9491A50E82500307943 /* navigation126.png in Resources */,
 				11E335381A4D03880087FA0C /* tabbar_contactsHL@2x~ipad.png in Resources */,
 				11E335391A4D03880087FA0C /* tabbar_discover@2x.png in Resources */,
 				11E3353B1A4D03880087FA0C /* tabbar_discoverHL@2x.png in Resources */,
 				11E335371A4D03880087FA0C /* tabbar_contactsHL@2x.png in Resources */,
+				11D3B94A1A50E82500307943 /* navigation44.png in Resources */,
 				11E335351A4D03880087FA0C /* tabbar_contacts@2x.png in Resources */,
 				11E334F41A4CF0040087FA0C /* Images.xcassets in Resources */,
 			);

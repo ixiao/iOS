@@ -7,7 +7,7 @@
         <!--微信-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="FirstViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="111" id="vXZ-lx-hvc" customClass="FirstViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -34,7 +34,7 @@
         <!--Scend View Controller-->
         <scene sceneID="EDR-VA-FgD">
             <objects>
-                <viewController id="wYD-q9-30D" customClass="ScendViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="222" id="wYD-q9-30D" customClass="ScendViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="vx6-kN-SXQ"/>
                         <viewControllerLayoutGuide type="bottom" id="4nM-Ae-VAj"/>
@@ -55,12 +55,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sXx-dv-KK9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1813" y="339"/>
+            <point key="canvasLocation" x="1351" y="339"/>
         </scene>
         <!--发现-->
         <scene sceneID="Ruw-fq-AtM">
             <objects>
-                <viewController id="NEX-zg-c1o" customClass="ThirdViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="333" id="NEX-zg-c1o" customClass="ThirdViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="TEk-Lm-wbi"/>
                         <viewControllerLayoutGuide type="bottom" id="5XK-u6-ByQ"/>
@@ -82,7 +82,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2IA-KJ-nSK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="947" y="1065"/>
+            <point key="canvasLocation" x="1779" y="339"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="1Xb-OL-UTK">
@@ -98,32 +98,11 @@
                     </tabBar>
                     <connections>
                         <segue destination="vXZ-lx-hvc" kind="relationship" relationship="viewControllers" id="ksw-DK-g2j"/>
-                        <segue destination="sSL-ms-FSA" kind="relationship" relationship="viewControllers" id="2Ac-5b-pVV"/>
-                        <segue destination="NEX-zg-c1o" kind="relationship" relationship="viewControllers" id="5E9-aP-S0E"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zR7-ym-sPB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="498" y="339"/>
-        </scene>
-        <!--通讯录-->
-        <scene sceneID="cqf-2r-uqO">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="sSL-ms-FSA" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="通讯录" id="SbE-Az-N3Z"/>
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="aap-hi-Fi1">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="wYD-q9-30D" kind="relationship" relationship="rootViewController" id="J3P-4w-k5A"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="KfS-VX-S1Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1281" y="339"/>
         </scene>
     </scenes>
     <resources>
@@ -131,8 +110,6 @@
         <image name="tabbar_mainframeHL.png" width="25" height="23"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="3qR-Nm-N8i"/>
-        <segue reference="kvh-b2-c20"/>
         <segue reference="2eq-Ev-Bvo"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.40263033310000002" green="0.81936553030000003" blue="0.48516875399999998" alpha="1" colorSpace="calibratedRGB"/>

@@ -34,9 +34,10 @@
     if (!self.ThirdVC) {
         self.ThirdVC = [ThirdViewController new];
         self.ThirdVC.tabBarController.navigationItem.title=@"发现";
-        UIBarButtonItem * rightButton = [[UIBarButtonItem alloc]initWithTitle:@"前往" style:UIBarButtonItemStylePlain target:self action:@selector(next:)];
-        self.tabBarController.navigationItem.rightBarButtonItem=rightButton;
+        self.rightButton = [[UIBarButtonItem alloc]initWithTitle:@"前往" style:UIBarButtonItemStylePlain target:self action:@selector(next:)];
+
     }
+    self.tabBarController.navigationItem.rightBarButtonItem=self.rightButton;
 }
 #pragma mark 右导航按钮
 -(void)next:(UIBarButtonItem *)sender

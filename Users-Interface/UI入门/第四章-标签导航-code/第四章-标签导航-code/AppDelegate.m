@@ -39,7 +39,12 @@
     //2.以导航控制器为根控制器，标签控制器作为导航控制器的根视图控制器时，各标签对应的视图控制器公用一个导航栈；
     UINavigationController * nav = [[UINavigationController alloc]initWithRootViewController:tabBarController
                                     ];
+    nav.navigationBar.barTintColor = [UIColor greenColor];
+    [nav.navigationBar setBackgroundImage:[UIImage imageNamed:@"navigation44"] forBarPosition:UIBarPositionTop barMetrics:UIBarMetricsDefault];
+    [nav.navigationBar setTitleTextAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:20.0f],NSForegroundColorAttributeName:[UIColor whiteColor]}];
+//    nav.navigationBar.tintColor = [UIColor colorWithRed:0.7f green:0.2f blue:0.1f alpha:0.3];
     self.window.rootViewController=nav;
+    
     
     // Override point for customization after application launch.
     return YES;

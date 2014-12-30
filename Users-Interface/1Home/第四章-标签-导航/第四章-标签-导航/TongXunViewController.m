@@ -36,10 +36,11 @@
     {
         self.SecondVC = [SecondViewController new];
         self.tabBarController.navigationItem.title = @"通讯录";
-        UIBarButtonItem * rightButton = [[UIBarButtonItem alloc]initWithTitle:@"前往" style:UIBarButtonItemStylePlain target:self action:@selector(doButton:)];
-        self.tabBarController.navigationItem.rightBarButtonItem=rightButton;
+        self.rightButton = [[UIBarButtonItem alloc]initWithTitle:@"前往" style:UIBarButtonItemStylePlain target:self action:@selector(doButton:)];
         
     }
+    self.tabBarController.navigationItem.rightBarButtonItem=self.rightButton;
+
 }
 #pragma mark 右导航
 -(void)doButton:(UIBarButtonItem *)sender

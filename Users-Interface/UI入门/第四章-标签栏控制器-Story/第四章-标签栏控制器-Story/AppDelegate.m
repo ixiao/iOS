@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "FirstViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,6 +16,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    //获取storyboard对象
+    UIStoryboard * sb = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    //从storyboard中获取导航控制器的根视图控制器
+    FirstViewController * firstVC = [sb instantiateViewControllerWithIdentifier:@"firstVC"];
+    //从storyboard中获取导航控制器
+    UINavigationController * nav = [UINavigationController ]
     // Override point for customization after application launch.
     return YES;
 }
