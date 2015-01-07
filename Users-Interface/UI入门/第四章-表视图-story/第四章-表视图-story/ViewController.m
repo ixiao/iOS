@@ -28,6 +28,7 @@
     //准备表视图的数据源
     self.listData = @[@"张三",@"李四",@"王五",@"赵六",@"呵呵"];
     self.listData2 = @[@"唐僧",@"孙悟空",@"猪八戒",@"沙僧",@"何瑾",@"张帅",@"貂蝉"];
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 //实现表视图回调的数据源和委托方法
@@ -75,6 +76,7 @@
     cell.imageView.image = [UIImage imageNamed:@"png-0010"];
     //指定单元格文本内容
     NSLog(@"indexpath.section:%ld,indexPath.row:%ld",indexPath.section,indexPath.row);
+    
     //指定单元格扩展按钮
 //    cell.accessoryType=UITableViewCellAccessoryDisclosureIndicator;//细节指使按钮
 //    cell.accessoryType = UITableViewCellAccessoryDetailButton;//信息说明按钮
