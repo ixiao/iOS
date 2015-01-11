@@ -1,0 +1,13 @@
+{
+    "name":"David Beckham",
+    "age":38,
+    "gender":true,
+    "wife":{
+        "name":"Victoria Beckham",
+        "age":39,
+        "team":"Spice Girls"
+    },
+    "children":[
+                "Brooklyn","Romeo","Cruz","Harper"
+    ]
+}

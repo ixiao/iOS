@@ -416,6 +416,7 @@
 				11F7F3BA1A5CD3F80013FDFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		11F7F3BB1A5CD3F80013FDFA /* Build configuration list for PBXNativeTarget "第八章-同步Get请求下载Tests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +425,7 @@
 				11F7F3BD1A5CD3F80013FDFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
