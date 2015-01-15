@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="wED-dP-tQV">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <scenes>
+        <!--Swipe Detation Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController storyboardIdentifier="mVC" id="vXZ-lx-hvc" customClass="SwipeDetationController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="此处显示扫动类型" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pis-xD-8vS">
+                                <rect key="frame" x="92" y="172" width="136" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="etY-mQ-Ka7"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="labelMessage" destination="pis-xD-8vS" id="mHG-hF-0WD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="182" y="-630"/>
+        </scene>
+        <!--Swipe View Controller-->
+        <scene sceneID="pjQ-gd-77M">
+            <objects>
+                <viewController storyboardIdentifier="swipeVC" id="kC8-rt-aeb" customClass="SwipeViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wow-wR-uaE"/>
+                        <viewControllerLayoutGuide type="bottom" id="h3D-M0-lsa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2c7-0I-WSM">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="此处显示扫动类型" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xtd-Z5-CNq">
+                                <rect key="frame" x="92" y="140" width="136" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="labelMessage" destination="Xtd-Z5-CNq" id="GZF-jO-tWF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uuB-sW-Nr2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="542" y="-630"/>
+        </scene>
+        <!--Tap View Controller-->
+        <scene sceneID="lFO-UE-nLk">
+            <objects>
+                <viewController storyboardIdentifier="tapVC" id="peR-hk-w3b" customClass="TapViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ASX-bM-L0l"/>
+                        <viewControllerLayoutGuide type="bottom" id="7gF-4d-Wf3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ZU1-Fz-4gj">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="检测单击" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GTg-8B-rdz">
+                                <rect key="frame" x="43" y="79" width="161" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="检测双击" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Blg-TG-hK2">
+                                <rect key="frame" x="43" y="144" width="161" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="检测三击" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nnF-YK-NUk">
+                                <rect key="frame" x="43" y="202" width="161" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="doubleTapLable" destination="Blg-TG-hK2" id="7wK-n0-0l1"/>
+                        <outlet property="singleTapLabel" destination="GTg-8B-rdz" id="ms3-a2-Z96"/>
+                        <outlet property="tripleTapLabel" destination="nnF-YK-NUk" id="MI8-81-WV9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Cu-kB-imi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="831" y="-595"/>
+        </scene>
+        <!--Rou View Controller-->
+        <scene sceneID="Zok-pe-PQC">
+            <objects>
+                <viewController storyboardIdentifier="rouVC" id="V1p-zZ-g1U" customClass="RouViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wdc-N3-fU6"/>
+                        <viewControllerLayoutGuide type="bottom" id="D5V-7D-Z93"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="IcO-Gd-fzU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="lFb-YC-GlF">
+                                <rect key="frame" x="23" y="-110" width="128" height="128"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="脸萌.png" translatesAutoresizingMaskIntoConstraints="NO" id="5Vn-Z1-MJZ">
+                                <rect key="frame" x="49" y="107" width="239" height="250"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="lFb-YC-GlF"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="routationImg" destination="5Vn-Z1-MJZ" id="WNb-5N-wC1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VLn-MC-U9d" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-143.5" y="74.5"/>
+        </scene>
+        <!--Pan View Controller-->
+        <scene sceneID="PCk-TH-hIf">
+            <objects>
+                <viewController storyboardIdentifier="panVC" id="9iG-RA-9s9" customClass="PanViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Jen-Kr-1aI"/>
+                        <viewControllerLayoutGuide type="bottom" id="Hnr-76-aRI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5CI-cT-xAv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="脸萌.png" translatesAutoresizingMaskIntoConstraints="NO" id="gVB-u4-QV8">
+                                <rect key="frame" x="39" y="104" width="204" height="250"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="panView" destination="gVB-u4-QV8" id="TW3-ds-d35"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jtV-13-P49" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="248.5" y="43.5"/>
+        </scene>
+        <!--Long Press View Controller-->
+        <scene sceneID="yjs-TD-WA0">
+            <objects>
+                <viewController storyboardIdentifier="longPressVC" id="lxb-Jf-aY4" customClass="LongPressViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3JR-D4-xoJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="ozU-n0-9OQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="sua-39-gs8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="脸萌.png" translatesAutoresizingMaskIntoConstraints="NO" id="MAu-rW-pAa">
+                                <rect key="frame" x="49" y="87" width="233" height="256"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="longPView" destination="MAu-rW-pAa" id="tez-Ea-zCU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cmH-NL-J45" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="639.5" y="43.5"/>
+        </scene>
+        <!--Add View Controller-->
+        <scene sceneID="uQf-Mx-8wK">
+            <objects>
+                <viewController storyboardIdentifier="addVC" id="s1o-2c-q0c" customClass="AddViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1qB-e9-HOY"/>
+                        <viewControllerLayoutGuide type="bottom" id="cN8-Mw-Urf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cHh-d2-mBE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="脸萌.png" translatesAutoresizingMaskIntoConstraints="NO" id="47R-hL-49J">
+                                <rect key="frame" x="41" y="98" width="258" height="248"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="addImg" destination="47R-hL-49J" id="wkN-3d-1Ss"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="531-L7-AOd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1226.5" y="259.5"/>
+        </scene>
+        <!--Img View Controller-->
+        <scene sceneID="fHc-71-eqP">
+            <objects>
+                <viewController storyboardIdentifier="pinchVC" id="DII-jv-lMF" customClass="ImgViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="oNd-X5-nhC"/>
+                        <viewControllerLayoutGuide type="bottom" id="UFi-dO-xVs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="CIl-ip-f3E">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="脸萌.png" translatesAutoresizingMaskIntoConstraints="NO" id="On4-DP-vN2">
+                                <rect key="frame" x="51" y="111" width="225" height="260"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="imgView" destination="On4-DP-vN2" id="Pdd-u0-L52"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="u9J-3W-V4b" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1165.5" y="-565.5"/>
+        </scene>
+        <!--Root View Controller-->
+        <scene sceneID="R7O-G5-Yb4">
+            <objects>
+                <tableViewController id="wOh-Zh-uh7" customClass="RootViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="VKa-Pi-vts">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="7c8-Sd-Tas">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="7c8-Sd-Tas" id="bZg-KL-ZMC">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="wOh-Zh-uh7" id="xoN-e1-vCS"/>
+                            <outlet property="delegate" destination="wOh-Zh-uh7" id="qn9-h8-NFJ"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="CL9-Px-gS0"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="V6R-Yi-TD1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-191" y="-642"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Eem-D8-Sez">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="wED-dP-tQV" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="BdR-ie-ssS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="wOh-Zh-uh7" kind="relationship" relationship="rootViewController" id="Mha-sM-lTp"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="70A-mf-qcN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-589" y="-630"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="脸萌.png" width="568" height="568"/>
+    </resources>
+</document>

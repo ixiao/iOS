@@ -9,8 +9,9 @@
 #import "ViewController.h"
 #import "Division.h"
 #import "GDataXMLNode.h"
+#import "DetailViewController.h"
 @interface ViewController ()
-
+@property (nonatomic,strong) DetailViewController * detai;
 @end
 
 @implementation ViewController
@@ -145,5 +146,17 @@
     cell.textLabel.text = division.id;
     cell.detailTextLabel.text = division.name;
     return cell;
+}
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    
+    if (!self.detai) {
+        self.detai = [DetailViewController new];
+    }
+    else
+    {
+        self.detai = self.list[indexPath.row];
+        [self.navigationController pushViewController:self.detai animated:YES];
+    }
 }
 @end

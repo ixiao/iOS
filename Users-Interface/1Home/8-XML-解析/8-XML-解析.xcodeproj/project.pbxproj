@@ -16,6 +16,7 @@
 		117880181A5FA5B500AAA4BF /* Division.m in Sources */ = {isa = PBXBuildFile; fileRef = 117880151A5FA5B500AAA4BF /* Division.m */; };
 		117880191A5FA5B500AAA4BF /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 117880171A5FA5B500AAA4BF /* Location.m */; };
 		1178801D1A5FB66200AAA4BF /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1178801C1A5FB66200AAA4BF /* GDataXMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		11DF19A51A623BC9001A81ED /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11DF19A41A623BC9001A81ED /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,8 @@
 		117880171A5FA5B500AAA4BF /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
 		1178801B1A5FB66200AAA4BF /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
 		1178801C1A5FB66200AAA4BF /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
+		11DF19A31A623BC9001A81ED /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		11DF19A41A623BC9001A81ED /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +99,10 @@
 				117880151A5FA5B500AAA4BF /* Division.m */,
 				117880161A5FA5B500AAA4BF /* Location.h */,
 				117880171A5FA5B500AAA4BF /* Location.m */,
-				1178801A1A5FB66200AAA4BF /* GData */,
 				11787FEF1A5F82E200AAA4BF /* Images.xcassets */,
+				11DF19A31A623BC9001A81ED /* DetailViewController.h */,
+				11DF19A41A623BC9001A81ED /* DetailViewController.m */,
+				1178801A1A5FB66200AAA4BF /* GData */,
 				11787FF11A5F82E200AAA4BF /* LaunchScreen.xib */,
 				11787FE21A5F82E200AAA4BF /* Supporting Files */,
 			);
@@ -244,6 +249,7 @@
 				117880181A5FA5B500AAA4BF /* Division.m in Sources */,
 				11787FE51A5F82E200AAA4BF /* main.m in Sources */,
 				1178801D1A5FB66200AAA4BF /* GDataXMLNode.m in Sources */,
+				11DF19A51A623BC9001A81ED /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +444,7 @@
 				117880041A5F82E200AAA4BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		117880051A5F82E200AAA4BF /* Build configuration list for PBXNativeTarget "8-XML-解析Tests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +453,7 @@
 				117880071A5F82E200AAA4BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
