@@ -37,6 +37,7 @@
     Student * stu = [NSEntityDescription insertNewObjectForEntityForName:@"Student" inManagedObjectContext:self.managedObjectContext];
     //给数据模型（托管对象 属性绑定界面数据）
     static int i =0;
+    i++;
     stu.id = [NSNumber numberWithInt:i];
     stu.name = self.txtName.text;
     stu.age = [NSNumber numberWithInt:[self.txtAge.text intValue]];
