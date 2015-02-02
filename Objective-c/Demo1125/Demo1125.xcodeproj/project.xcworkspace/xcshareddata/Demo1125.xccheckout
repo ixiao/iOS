@@ -10,31 +10,31 @@
 	<string>Demo1125</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>336F34EAE2A60ED0970BCBA7992A7D215EF9FAE3</key>
-		<string>https://github.com/ixiao/iOS.git</string>
+		<key>F88AB712052F087AFAD0540508D59F05E41FB7CA</key>
+		<string>github.com:ixiao/iOS.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>X-code/Demo1125/Demo1125.xcodeproj</string>
+	<string>Objective-c/Demo1125/Demo1125.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>336F34EAE2A60ED0970BCBA7992A7D215EF9FAE3</key>
+		<key>F88AB712052F087AFAD0540508D59F05E41FB7CA</key>
 		<string>../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/ixiao/iOS.git</string>
+	<string>github.com:ixiao/iOS.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>336F34EAE2A60ED0970BCBA7992A7D215EF9FAE3</string>
+	<string>F88AB712052F087AFAD0540508D59F05E41FB7CA</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>336F34EAE2A60ED0970BCBA7992A7D215EF9FAE3</string>
+			<string>F88AB712052F087AFAD0540508D59F05E41FB7CA</string>
 			<key>IDESourceControlWCCName</key>
-			<string>iOS</string>
+			<string>iOS%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0</string>
 		</dict>
 	</array>
 </dict>

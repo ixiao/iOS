@@ -59,13 +59,6 @@
 #pragma mark
 
 - (IBAction)objRead:(id)sender {
-//    //首先从plist文件中读取字典
-//    NSDictionary * dict = [NSDictionary dictionaryWithContentsOfFile:[self getFilePath:@"stu.plist"]];
-//    // 通过字典来创建学生对象
-//    Student * stu = [S
-
-    
-    
     // 首先从plist文件中读出字典
     NSDictionary *dict = [NSDictionary dictionaryWithContentsOfFile:[self getFilePath:@"stu.plist"]];
     // 通过字典创建学生对象

@@ -14,7 +14,7 @@
 		<string>github.com:ixiao/iOS.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>UI界面/UI入门/HuaDong/HuaDong.xcodeproj</string>
+	<string>Users-Interface/UI入门/HuaDong/HuaDong.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>F88AB712052F087AFAD0540508D59F05E41FB7CA</key>
@@ -34,7 +34,7 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>F88AB712052F087AFAD0540508D59F05E41FB7CA</string>
 			<key>IDESourceControlWCCName</key>
-			<string>iOS</string>
+			<string>iOS%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0</string>
 		</dict>
 	</array>
 </dict>

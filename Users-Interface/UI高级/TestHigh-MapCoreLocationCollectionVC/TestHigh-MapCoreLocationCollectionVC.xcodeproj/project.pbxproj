@@ -15,6 +15,22 @@
 		0F329F261A7875A70023F563 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F329F241A7875A70023F563 /* LaunchScreen.xib */; };
 		0F329F321A7875A70023F563 /* TestHigh_MapCoreLocationCollectionVCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F329F311A7875A70023F563 /* TestHigh_MapCoreLocationCollectionVCTests.m */; };
 		0F329F3D1A78884E0023F563 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F329F3C1A78884E0023F563 /* MapViewController.m */; };
+		11DA59651A79C1F800BCA177 /* Map-Annotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 11DA59641A79C1F800BCA177 /* Map-Annotation.m */; };
+		11DA59731A79C85400BCA177 /* pushpin1.png in Resources */ = {isa = PBXBuildFile; fileRef = 11DA59671A79C85400BCA177 /* pushpin1.png */; };
+		11DA59741A79C85400BCA177 /* pushpin10.png in Resources */ = {isa = PBXBuildFile; fileRef = 11DA59681A79C85400BCA177 /* pushpin10.png */; };
+		11DA59751A79C85400BCA177 /* pushpin11.png in Resources */ = {isa = PBXBuildFile; fileRef = 11DA59691A79C85400BCA177 /* pushpin11.png */; };
+		11DA59761A79C85400BCA177 /* pushpin12.png in Resources */ = {isa = PBXBuildFile; fileRef = 11DA596A1A79C85400BCA177 /* pushpin12.png */; };
+		11DA59771A79C85400BCA177 /* pushpin2.png in Resources */ = {isa = PBXBuildFile; fileRef = 11DA596B1A79C85400BCA177 /* pushpin2.png */; };
+		11DA59781A79C85400BCA177 /* pushpin3.png in Resources */ = {isa = PBXBuildFile; fileRef = 11DA596C1A79C85400BCA177 /* pushpin3.png */; };
+		11DA59791A79C85400BCA177 /* pushpin4.png in Resources */ = {isa = PBXBuildFile; fileRef = 11DA596D1A79C85400BCA177 /* pushpin4.png */; };
+		11DA597A1A79C85400BCA177 /* pushpin5.png in Resources */ = {isa = PBXBuildFile; fileRef = 11DA596E1A79C85400BCA177 /* pushpin5.png */; };
+		11DA597B1A79C85400BCA177 /* pushpin6.png in Resources */ = {isa = PBXBuildFile; fileRef = 11DA596F1A79C85400BCA177 /* pushpin6.png */; };
+		11DA597C1A79C85400BCA177 /* pushpin7.png in Resources */ = {isa = PBXBuildFile; fileRef = 11DA59701A79C85400BCA177 /* pushpin7.png */; };
+		11DA597D1A79C85400BCA177 /* pushpin8.png in Resources */ = {isa = PBXBuildFile; fileRef = 11DA59711A79C85400BCA177 /* pushpin8.png */; };
+		11DA597E1A79C85400BCA177 /* pushpin9.png in Resources */ = {isa = PBXBuildFile; fileRef = 11DA59721A79C85400BCA177 /* pushpin9.png */; };
+		11DA59801A79CD4500BCA177 /* aboutUS.png in Resources */ = {isa = PBXBuildFile; fileRef = 11DA597F1A79CD4500BCA177 /* aboutUS.png */; };
+		11DA59831A79CD9000BCA177 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11DA59821A79CD9000BCA177 /* AboutViewController.m */; };
+		11DA59861A79D96200BCA177 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11DA59851A79D96200BCA177 /* CollectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +59,25 @@
 		0F329F311A7875A70023F563 /* TestHigh_MapCoreLocationCollectionVCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestHigh_MapCoreLocationCollectionVCTests.m; sourceTree = "<group>"; };
 		0F329F3B1A78884E0023F563 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		0F329F3C1A78884E0023F563 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		11DA59631A79C1F800BCA177 /* Map-Annotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Map-Annotation.h"; path = "../Map-Annotation.h"; sourceTree = "<group>"; };
+		11DA59641A79C1F800BCA177 /* Map-Annotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Map-Annotation.m"; path = "../Map-Annotation.m"; sourceTree = "<group>"; };
+		11DA59671A79C85400BCA177 /* pushpin1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pushpin1.png; sourceTree = "<group>"; };
+		11DA59681A79C85400BCA177 /* pushpin10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pushpin10.png; sourceTree = "<group>"; };
+		11DA59691A79C85400BCA177 /* pushpin11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pushpin11.png; sourceTree = "<group>"; };
+		11DA596A1A79C85400BCA177 /* pushpin12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pushpin12.png; sourceTree = "<group>"; };
+		11DA596B1A79C85400BCA177 /* pushpin2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pushpin2.png; sourceTree = "<group>"; };
+		11DA596C1A79C85400BCA177 /* pushpin3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pushpin3.png; sourceTree = "<group>"; };
+		11DA596D1A79C85400BCA177 /* pushpin4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pushpin4.png; sourceTree = "<group>"; };
+		11DA596E1A79C85400BCA177 /* pushpin5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pushpin5.png; sourceTree = "<group>"; };
+		11DA596F1A79C85400BCA177 /* pushpin6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pushpin6.png; sourceTree = "<group>"; };
+		11DA59701A79C85400BCA177 /* pushpin7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pushpin7.png; sourceTree = "<group>"; };
+		11DA59711A79C85400BCA177 /* pushpin8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pushpin8.png; sourceTree = "<group>"; };
+		11DA59721A79C85400BCA177 /* pushpin9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pushpin9.png; sourceTree = "<group>"; };
+		11DA597F1A79CD4500BCA177 /* aboutUS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aboutUS.png; sourceTree = "<group>"; };
+		11DA59811A79CD9000BCA177 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		11DA59821A79CD9000BCA177 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		11DA59841A79D96200BCA177 /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		11DA59851A79D96200BCA177 /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +126,15 @@
 				0F329F1D1A7875A70023F563 /* LocationViewController.m */,
 				0F329F3B1A78884E0023F563 /* MapViewController.h */,
 				0F329F3C1A78884E0023F563 /* MapViewController.m */,
+				11DA59631A79C1F800BCA177 /* Map-Annotation.h */,
+				11DA59641A79C1F800BCA177 /* Map-Annotation.m */,
 				0F329F1F1A7875A70023F563 /* Main.storyboard */,
+				11DA59841A79D96200BCA177 /* CollectionViewController.h */,
+				11DA59851A79D96200BCA177 /* CollectionViewController.m */,
+				11DA59811A79CD9000BCA177 /* AboutViewController.h */,
+				11DA59821A79CD9000BCA177 /* AboutViewController.m */,
+				11DA597F1A79CD4500BCA177 /* aboutUS.png */,
+				11DA59661A79C85400BCA177 /* images */,
 				0F329F221A7875A70023F563 /* Images.xcassets */,
 				0F329F241A7875A70023F563 /* LaunchScreen.xib */,
 				0F329F151A7875A70023F563 /* Supporting Files */,
@@ -130,6 +173,25 @@
 			children = (
 			);
 			name = Framework;
+			sourceTree = "<group>";
+		};
+		11DA59661A79C85400BCA177 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				11DA59671A79C85400BCA177 /* pushpin1.png */,
+				11DA59681A79C85400BCA177 /* pushpin10.png */,
+				11DA59691A79C85400BCA177 /* pushpin11.png */,
+				11DA596A1A79C85400BCA177 /* pushpin12.png */,
+				11DA596B1A79C85400BCA177 /* pushpin2.png */,
+				11DA596C1A79C85400BCA177 /* pushpin3.png */,
+				11DA596D1A79C85400BCA177 /* pushpin4.png */,
+				11DA596E1A79C85400BCA177 /* pushpin5.png */,
+				11DA596F1A79C85400BCA177 /* pushpin6.png */,
+				11DA59701A79C85400BCA177 /* pushpin7.png */,
+				11DA59711A79C85400BCA177 /* pushpin8.png */,
+				11DA59721A79C85400BCA177 /* pushpin9.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,9 +274,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11DA59771A79C85400BCA177 /* pushpin2.png in Resources */,
+				11DA59801A79CD4500BCA177 /* aboutUS.png in Resources */,
+				11DA59741A79C85400BCA177 /* pushpin10.png in Resources */,
 				0F329F211A7875A70023F563 /* Main.storyboard in Resources */,
 				0F329F261A7875A70023F563 /* LaunchScreen.xib in Resources */,
+				11DA597B1A79C85400BCA177 /* pushpin6.png in Resources */,
+				11DA597C1A79C85400BCA177 /* pushpin7.png in Resources */,
 				0F329F231A7875A70023F563 /* Images.xcassets in Resources */,
+				11DA59761A79C85400BCA177 /* pushpin12.png in Resources */,
+				11DA59731A79C85400BCA177 /* pushpin1.png in Resources */,
+				11DA59781A79C85400BCA177 /* pushpin3.png in Resources */,
+				11DA597D1A79C85400BCA177 /* pushpin8.png in Resources */,
+				11DA59791A79C85400BCA177 /* pushpin4.png in Resources */,
+				11DA597A1A79C85400BCA177 /* pushpin5.png in Resources */,
+				11DA597E1A79C85400BCA177 /* pushpin9.png in Resources */,
+				11DA59751A79C85400BCA177 /* pushpin11.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +307,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11DA59831A79CD9000BCA177 /* AboutViewController.m in Sources */,
+				11DA59861A79D96200BCA177 /* CollectionViewController.m in Sources */,
+				11DA59651A79C1F800BCA177 /* Map-Annotation.m in Sources */,
 				0F329F1E1A7875A70023F563 /* LocationViewController.m in Sources */,
 				0F329F1B1A7875A70023F563 /* AppDelegate.m in Sources */,
 				0F329F181A7875A70023F563 /* main.m in Sources */,
@@ -426,6 +504,7 @@
 				0F329F371A7875A70023F563 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F329F381A7875A70023F563 /* Build configuration list for PBXNativeTarget "TestHigh-MapCoreLocationCollectionVCTests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +513,7 @@
 				0F329F3A1A7875A70023F563 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -10,34 +10,41 @@
 
 @implementation instance
 
-static instance * instanc;
+static instance * instanc = nil;
 //单例方法
-+(instancetype)sharedSingleton{
-    if (!instanc) {
-        NSLog(@"调用alloc分配内存");
+//+(instancetype)sharedSingleton{
+//    if (!instanc) {
+//        NSLog(@"调用alloc分配内存");
+//        instanc = [[instance alloc]init];
+//    }
+//    return instanc;
+//}
+////重写allocWithZone：方法防止用户直接alloc对象
+//+(id)allocWithZone:(struct _NSZone *)
+//    zone{
+//    NSLog(@"再次调用");
+//    if (!instanc) {
+//        instanc = [super allocWithZone:zone];
+//    }
+//    return instanc;
+//}
+////自己定义的类一般在copyWithZone中完成浅拷贝，在mutableCopyZone中完成深拷贝.
+//-(id)copyWithZone:(NSZone *)zone{
+//    NSLog(@"调用copy");
+//    return self;
+//}
+//-(id)mutableCopyWithZone:(NSZone *)zone{
+//    NSLog(@"调用mutable");
+//    return self;
+//}
++(instancetype)sharedSingleton
+{
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
         instanc = [[instance alloc]init];
-    }
+    });
     return instanc;
 }
-//重写allocWithZone：方法防止用户直接alloc对象
-+(id)allocWithZone:(struct _NSZone *)
-    zone{
-    NSLog(@"再次调用");
-    if (!instanc) {
-        instanc = [super allocWithZone:zone];
-    }
-    return instanc;
-}
-//自己定义的类一般在copyWithZone中完成浅拷贝，在mutableCopyZone中完成深拷贝.
--(id)copyWithZone:(NSZone *)zone{
-    NSLog(@"调用copy");
-    return self;
-}
--(id)mutableCopyWithZone:(NSZone *)zone{
-    NSLog(@"调用mutable");
-    return self;
-}
-
 
 
 @end
